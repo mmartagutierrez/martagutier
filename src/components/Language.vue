@@ -1,5 +1,7 @@
 <template>
-  <span v-show="translatedText">{{ translatedText }}</span>
+  <span v-show="translatedText" :class="`${opacityClass} text-container`">{{
+    translatedText
+  }}</span>
 </template>
 
 <script>
@@ -13,6 +15,7 @@ export default {
   data() {
     return {
       translatedText: "",
+      opacityClass: "opaque",
     };
   },
   methods: {
@@ -25,9 +28,24 @@ export default {
   },
   watch: {
     currentLanguage() {
-      this.setLanguage();
+      this.opacityClass = "transparent";
+      // Primitive ways to delay javascript execution like setTimeout are somewhat bad practice but its use is limited here so prob fine
+      setTimeout(() => {
+        this.setLanguage();
+        this.opacityClass = "opaque";
+      }, 200);
     },
   },
 };
 </script>
-<style scoped></style>
+<style scoped>
+.text-container {
+  transition-duration: 0.1s;
+}
+.opaque {
+  opacity: 1;
+}
+.transparent {
+  opacity: 0;
+}
+</style>
