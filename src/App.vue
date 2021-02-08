@@ -5,6 +5,7 @@
       <div class="design navbar-item"><span>Design</span></div>
       <div class="about navbar-item"><span>About</span></div>
       <div class="contact navbar-item"><span>Contact</span></div>
+      <div class="navbar-item"><language-switch /></div>
     </div>
     <div class="header strong">
       <div class="message padding">
@@ -42,12 +43,17 @@
         <div class="outline contact uppercase centered">Contact</div>
       </div>
     </div>
+    <any-language />
   </div>
 </template>
 
 <script>
+import AnyLanguage from "@/components/AnyLanguage.vue";
+import LanguageSwitch from "@/components/LanguageSwitch.vue";
+
 export default {
   name: "App",
+  components: { AnyLanguage, LanguageSwitch },
 };
 </script>
 
