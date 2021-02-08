@@ -6,7 +6,7 @@
       <div class="about navbar-item"><span>About</span></div>
       <div class="contact navbar-item"><span>Contact</span></div>
     </div>
-    <div class="header">
+    <div class="header strong">
       <div class="message padding">
         <span>Hola! I'm Marta and I believe in creative thinking...</span>
       </div>
@@ -52,8 +52,11 @@ export default {
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap");
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Sulphur Point, sans-serif;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -62,7 +65,6 @@ export default {
 
 body {
   margin: 0px;
-  font-family: Tahoma;
 }
 
 /* Utility classes */
@@ -80,6 +82,9 @@ body {
   width: fit-content;
   border: 1px solid black;
   padding: 5px 10px !important;
+}
+.strong {
+  font-weight: 700;
 }
 
 /*  Navbar */
@@ -127,6 +132,7 @@ body {
 }
 .topics {
   display: flex;
+  margin-bottom: 10px;
 }
 .topics .topic {
   width: fit-content;
@@ -137,7 +143,6 @@ body {
 }
 .message {
   font-size: 32px;
-  font-family: monospace;
   margin-top: 40px;
   margin-bottom: 30px;
   flex-grow: 1;
