@@ -2,24 +2,36 @@
   <div id="app">
     <div class="navbar padding uppercase">
       <div class="m-logo"><div>M Here</div></div>
-      <div class="design navbar-item"><span>Design</span></div>
-      <div class="about navbar-item"><span>About</span></div>
-      <div class="contact navbar-item"><span>Contact</span></div>
+      <div class="design navbar-item"><language phrase="design" /></div>
+      <div class="about navbar-item"><language phrase="about_me" /></div>
+      <div class="contact navbar-item">
+        <language phrase="contact" />
+      </div>
       <div class="navbar-item"><language-switch /></div>
     </div>
     <div class="header strong">
       <div class="message padding">
-        <span>Hola! I'm Marta and I believe in creative thinking...</span>
+        <language phrase="header_message" />
       </div>
       <div class="topics uppercase centered">
         <div class="line-1 centered">
-          <div class="topic centered"><span>Graphic Design</span></div>
-          <div class="topic centered"><span>Branding</span></div>
-          <div class="topic centered"><span>Advertising</span></div>
+          <div class="topic centered">
+            <language phrase="graphic_design" />
+          </div>
+          <div class="topic centered">
+            <language phrase="branding" />
+          </div>
+          <div class="topic centered">
+            <language phrase="advertising" />
+          </div>
         </div>
         <div class="line-2 centered">
-          <div class="topic centered"><span>Web Design</span></div>
-          <div class="topic centered"><span>Packaging</span></div>
+          <div class="topic centered">
+            <language phrase="web_design" />
+          </div>
+          <div class="topic centered">
+            <language phrase="packaging" />
+          </div>
         </div>
       </div>
     </div>
@@ -28,32 +40,27 @@
     </div>
     <div class="testimonials">
       <div class="testimonials-container centered">
-        <div class="title uppercase"><span>Testimonials</span></div>
-        <div class="copy padding">
-          <span
-            >Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up one of the more
-            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-            going through the cites of the word in classical literature,
-            discovered the undoubtable source.</span
-          >
+        <div class="title uppercase">
+          <language phrase="testimonial_header" />
         </div>
-        <div class="outline contact uppercase centered">Contact</div>
+        <div class="copy padding">
+          <language phrase="testimonial_1" />
+        </div>
+        <div class="outline contact uppercase centered">
+          <language phrase="contact" />
+        </div>
       </div>
     </div>
-    <any-language keyPhrase="aboutMe" />
   </div>
 </template>
 
 <script>
-import AnyLanguage from "@/components/AnyLanguage.vue";
+import Language from "@/components/Language.vue";
 import LanguageSwitch from "@/components/LanguageSwitch.vue";
 
 export default {
   name: "App",
-  components: { AnyLanguage, LanguageSwitch },
+  components: { Language, LanguageSwitch },
 };
 </script>
 

@@ -17,8 +17,7 @@ export default {
   },
   methods: {
     setLanguage() {
-      this.translatedText =
-        phrases[this.$attrs.keyPhrase][this.currentLanguage];
+      this.translatedText = phrases[this.$attrs.phrase][this.currentLanguage];
     },
   },
   created() {

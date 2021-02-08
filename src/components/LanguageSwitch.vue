@@ -47,6 +47,7 @@ export default {
 
 .switch {
   cursor: pointer;
+  user-select: none;
 }
 .switch input {
   display: none;

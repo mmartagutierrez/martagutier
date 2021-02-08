@@ -1,1 +1,46 @@
-{ "aboutMe": { "spanish": "hola", "english": "hi" } }
+{
+  "about_me": {
+    "spanish": "Sobre Yo",
+    "english": "About Me"
+  },
+  "contact": {
+    "spanish": "Contactame",
+    "english": "Contact"
+  },
+  "design": {
+    "spanish": "Diseño",
+    "english": "Design"
+  },
+  "header_message": {
+    "english": "Hola! I'm Marta and I believe in creative thinking...",
+    "spanish": "Hola! Soy Marta y creo en el pensamiento creativo..."
+  },
+  "web_design": {
+    "english": "Web Design",
+    "spanish": "Diseño web"
+  },
+  "packaging": {
+    "english": "Packaging",
+    "spanish": "Embalaje"
+  },
+  "branding": {
+    "english": "Branding",
+    "spanish": "Marca"
+  },
+  "advertising": {
+    "english": "Advertising",
+    "spanish": "Publicidad"
+  },
+  "graphic_design": {
+    "english": "Graphic Design",
+    "spanish": "Diseño gráfico"
+  },
+  "testimonial_header": {
+    "english": "Testimonials",
+    "spanish": "Testimonios"
+  },
+  "testimonial_1": {
+    "english": "Contrary to popular belief, Lorem Ipsum is not simply random text.  It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+    "spanish": "Contrariamente a la creencia popular, Lorem Ipsum no es simplemente un texto aleatorio. Tiene sus raíces en una pieza de la literatura latina clásica del 45 a. C., por lo que tiene más de 2000 años. Richard McClintock, profesor de latín en Hampden-Sydney College en Virginia, buscó una de las palabras latinas más oscuras, consectetur, de un pasaje de Lorem Ipsum, y revisando las citas de la palabra en la literatura clásica, descubrió la fuente indudable."
+  }
+}
