@@ -43,7 +43,7 @@
         <div class="outline contact uppercase centered">Contact</div>
       </div>
     </div>
-    <any-language />
+    <any-language keyPhrase="aboutMe" />
   </div>
 </template>
 
