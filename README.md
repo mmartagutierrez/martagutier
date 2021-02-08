@@ -1,4 +1,4 @@
-# martas-portfolio
+# martagutier
 
 ## Project setup
 ```
