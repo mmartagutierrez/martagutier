@@ -1,6 +1,6 @@
 <template>
   <div>
-    <span class="language">Spanish</span>
+    <span class="language">Español</span>
     <label class="switch">
       <input
         type="checkbox"
